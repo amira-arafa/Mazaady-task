@@ -42,7 +42,11 @@ export default function Header() {
             <img className="w-md xl:w-40" src="assets/profile.svg"></img>
           </div>
           <div className="mr-lg hidden xl:block">
-            <Button text="Add New Product" />
+            <Button
+              className="text-sm"
+              icon="/assets/add_icon.svg"
+              text="Add New Product"
+            />
           </div>
           <div className="hidden xl:block pr-9 border-r border-solid border-ligthGray">
             <img src="assets/global.svg"></img>

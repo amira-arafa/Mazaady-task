@@ -19,10 +19,16 @@ const config: Config = {
       current: "currentColor",
       gray: "#828282",
       ligthGray: "#E0E0E0",
+      normalGray: "#4F4F4F",
+      darkGray: "#333333",
       darkRed: "#D20653",
       pink: "#FFEAD2",
       orange: "#FF951D",
+      ligthOrange: "#FFF5E9",
       white: "#FFFFFF",
+      mainGray:"#F6F4F5",
+      yellow: "#FF951D",
+      black:"#363333"
     },
     spacing: {
       wrapLg: "84px",
@@ -30,21 +36,45 @@ const config: Config = {
       md: "24px",
       lg: "32px",
       4: "4px",
+      6: "6px",
       8: "8px",
       9: "9px",
       9.5: "9.5px",
+      10: "10px",
+      11: "11px",
       16: "16px",
       16.5: "16.5px",
+      17: "17px",
+      25: "25px",
       30: "30px",
       40: "40px",
+      48: "48px",
+      84: "84px"
+    },
+    borderRadius: {
+      20: '20px',
+      21: '21px',
+      24: '24px',
+      8: '8px'
     },
     fontFamily: {
       nunito: ["var(--font-nunito)"],
     },
     fontSize: {
-      md: "18px",
+      xs: "12px",
       sm: "14px",
+      st: "16px",
+      md: "18px",
+      xl: "24px"
     },
+    screens: {
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
+      st: '1440px',
+      xxl: "1536px",
+    }
   },
   plugins: [],
 };
