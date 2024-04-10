@@ -31,14 +31,14 @@ export default function Header() {
           </div>
         </div>
         <div className="col-span-6 justify-self-end flex items-center">
-          <div className="xl:border-r border-solid border-pink">
+          <div className="xl:border-r border-solid border-pink cursor-pointer">
             <img className="xl:pr-md pr-16" src="assets/search.svg"></img>
           </div>
 
-          <div className="xl:border-r border-solid border-pink xl:pl-md pl-0">
+          <div className="xl:border-r border-solid border-pink xl:pl-md pl-0 cursor-pointer">
             <img className="xl:pr-md pr-16" src="assets/notification.svg"></img>
           </div>
-          <div className="xl:px-md px-0 ">
+          <div className="xl:px-md px-0 cursor-pointer">
             <img className="w-md xl:w-40" src="assets/profile.svg"></img>
           </div>
           <div className="mr-lg hidden xl:block">
@@ -48,10 +48,10 @@ export default function Header() {
               text="Add New Product"
             />
           </div>
-          <div className="hidden xl:block pr-9 border-r border-solid border-ligthGray">
+          <div className="hidden xl:block pr-9 border-r border-solid border-ligthGray cursor-pointer">
             <img src="assets/global.svg"></img>
           </div>
-          <div className="hidden xl:block mr-9 pl-9">EN</div>
+          <div className="hidden xl:block mr-9 pl-9 cursor-pointer">EN</div>
           <div></div>
         </div>
       </div>

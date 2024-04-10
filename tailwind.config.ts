@@ -42,9 +42,11 @@ const config: Config = {
       9.5: "9.5px",
       10: "10px",
       11: "11px",
+      13: "13px",
       16: "16px",
       16.5: "16.5px",
       17: "17px",
+      18: "18px",
       25: "25px",
       30: "30px",
       40: "40px",
@@ -52,9 +54,12 @@ const config: Config = {
       84: "84px"
     },
     borderRadius: {
+      40: '40px',
       20: '20px',
       21: '21px',
       24: '24px',
+      18: '18px',
+      13: '13px',
       8: '8px'
     },
     fontFamily: {

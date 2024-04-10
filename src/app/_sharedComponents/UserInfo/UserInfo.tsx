@@ -5,7 +5,7 @@ type UserInfoProps = {
 };
 export default function UserInfo({ icon, number, text }: UserInfoProps) {
   return (
-    <div className="col-span-4 flex bg-ligthOrange gap-4 rounded-20 xxl:p-sm p-8 items-center">
+    <div className="col-span-4 flex bg-ligthOrange gap-4 rounded-18 xxl:p-sm p-8 items-center">
       <div className=" w-[22px] h-[22px]">
         <img src={icon}></img>
       </div>

@@ -1,3 +1,4 @@
+import FollowUs from "../ProfileFollowUs/FollowUs";
 import ProfileInfo from "../ProfileInfo/ProfileInfo";
 
 export default function HomeLayout() {
@@ -7,7 +8,9 @@ export default function HomeLayout() {
         <div className="mb-md xl:p-md p-16 bg-white xl:rounded-21 rounded-24">
           <ProfileInfo />
         </div>
-        <div className="mb-md"></div>
+        <div className="mb-md xl:p-md p-16 bg-white xl:rounded-21 rounded-24">
+          <FollowUs />
+        </div>
       </div>
       <div className="col-span-4"></div>
     </div>
