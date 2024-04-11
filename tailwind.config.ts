@@ -27,8 +27,7 @@ const config: Config = {
       ligthOrange: "#FFF5E9",
       white: "#FFFFFF",
       mainGray:"#F6F4F5",
-      yellow: "#FF951D",
-      black:"#363333"
+      black:"#363333",
     },
     spacing: {
       wrapLg: "84px",
@@ -47,18 +46,25 @@ const config: Config = {
       16.5: "16.5px",
       17: "17px",
       18: "18px",
+      20: "20px",
       25: "25px",
+      27: "27px",
       30: "30px",
+      31: "31px",
+      34: "34px",
       40: "40px",
       48: "48px",
-      84: "84px"
+      84: "84px",
+      n1: "-1px",
     },
     borderRadius: {
       40: '40px',
+      31: '31px',
       20: '20px',
       21: '21px',
       24: '24px',
       18: '18px',
+      14: '14px',
       13: '13px',
       8: '8px'
     },
@@ -66,11 +72,14 @@ const config: Config = {
       nunito: ["var(--font-nunito)"],
     },
     fontSize: {
+      xxs: "8px",
       xs: "12px",
       sm: "14px",
       st: "16px",
       md: "18px",
-      xl: "24px"
+      lg: "20px",
+      xl: "24px",
+      xxl: "32px"
     },
     screens: {
       sm: "640px",

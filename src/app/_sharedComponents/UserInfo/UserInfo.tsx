@@ -11,7 +11,7 @@ export default function UserInfo({ icon, number, text }: UserInfoProps) {
       </div>
       <div className="leading-tight">
         <div className="font-nunito font-bold text-sm text-black">{number}</div>
-        <div className="font-nunito font-normal text-xs text-yellow">
+        <div className="font-nunito font-normal text-xs text-orange">
           {text}
         </div>
       </div>

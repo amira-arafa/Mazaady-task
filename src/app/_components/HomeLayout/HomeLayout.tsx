@@ -1,3 +1,4 @@
+import ProductsList from "../ProductsList/ProductsList";
 import FollowUs from "../ProfileFollowUs/FollowUs";
 import ProfileInfo from "../ProfileInfo/ProfileInfo";
 
@@ -12,7 +13,9 @@ export default function HomeLayout() {
           <FollowUs />
         </div>
       </div>
-      <div className="col-span-4"></div>
+      <div className="xl:col-span-8 col-span-12 xl:p-md p-16 bg-white xl:rounded-21 rounded-24">
+        <ProductsList />
+      </div>
     </div>
   );
 }
