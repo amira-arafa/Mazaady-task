@@ -1,0 +1,14 @@
+.select-search-container {
+  margin-top: 8px;
+  width: 100%;
+  margin-bottom: 12px;
+}
+.select-search-container:not(.select-search-is-disabled).select-search-has-focus
+  .select-search-input,
+.select-search-container:not(.select-search-is-disabled)
+  .select-search-input:hover {
+  border: 2px solid var(--select-search-border);
+}
+.select-search-select {
+  border: none !important;
+}

@@ -21,6 +21,7 @@ const config: Config = {
       ligthGray: "#E0E0E0",
       normalGray: "#4F4F4F",
       darkGray: "#333333",
+      standardGray:"#dce0e8",
       darkRed: "#D20653",
       pink: "#FFEAD2",
       orange: "#FF951D",
@@ -28,12 +29,14 @@ const config: Config = {
       white: "#FFFFFF",
       mainGray:"#F6F4F5",
       black:"#363333",
+      red:"#FF0000"
     },
     spacing: {
       wrapLg: "84px",
       sm: "12px",
       md: "24px",
       lg: "32px",
+      2: "2px",
       4: "4px",
       6: "6px",
       8: "8px",
