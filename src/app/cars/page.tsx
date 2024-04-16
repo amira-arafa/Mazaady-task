@@ -142,8 +142,8 @@ export default function Cars() {
 
   return (
     <div className="bg-mainGray min-h-screen">
-      <div className="w-3/5	mx-auto py-30 font-nunito">
-        <form className="shadow-md rounded-8 p-30 bg-white">
+      <div className="xl:w-3/5 	xl:mx-auto mx-16 py-30 font-nunito">
+        <form className="shadow-md rounded-8 xl:p-30 p-16 bg-white">
           {!categories.loading && (
             <DropDown
               id="main_category"
