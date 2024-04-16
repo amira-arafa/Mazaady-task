@@ -48,7 +48,10 @@ export default function ProductCard({
             </span>
             <div className="flex gap-16">
               {lots.map((lot, index) => (
-                <div className="font-nunito bg-ligthOrange font-bold  text-orange px-6 px-md rounded-24">
+                <div
+                  key={index}
+                  className="font-nunito bg-ligthOrange font-bold  text-orange px-6 px-md rounded-24"
+                >
                   <span className="xl:text-lg text-xs">{lot}</span>
                   <span className="xl:text-sm text-xxs"> {labels[index]}</span>
                 </div>

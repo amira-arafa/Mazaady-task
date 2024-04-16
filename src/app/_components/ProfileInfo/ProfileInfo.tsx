@@ -1,5 +1,5 @@
-import Button from "@/app/_sharedComponents/Button/Button";
-import UserInfo from "@/app/_sharedComponents/UserInfo/UserInfo";
+import Button from "../../_sharedComponents/Button/Button";
+import UserInfo from "../../_sharedComponents/UserInfo/UserInfo";
 
 export default function ProfileInfo() {
   return (

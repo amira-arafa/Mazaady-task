@@ -1,4 +1,4 @@
-import Button from "@/app/_sharedComponents/Button/Button";
+import Button from "../../_sharedComponents/Button/Button";
 import "./Header.css";
 
 export default function Header() {
@@ -7,10 +7,10 @@ export default function Header() {
       <div className="grid grid-cols-12  items-center">
         <div className="col-span-6 flex  items-center">
           <div className="xl:hidden block mr-4">
-            <img src="assets/menu.svg"></img>
+            <img src="assets/menu.svg" alt="Menu"></img>
           </div>
           <div>
-            <img className="mr-lg" src="/assets/logo.png"></img>
+            <img className="mr-lg" src="/assets/logo.png" alt="Logo"></img>
           </div>
           <div className="hidden xl:block">
             <ul className="flex items-center">

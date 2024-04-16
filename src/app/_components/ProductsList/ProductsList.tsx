@@ -1,6 +1,6 @@
-import Button from "@/app/_sharedComponents/Button/Button";
+import Button from "../../_sharedComponents/Button/Button";
 import Tab from "../../_sharedComponents/Tabs/Tab";
-import ProductCard from "@/app/_sharedComponents/ProductCard/ProductCard";
+import ProductCard from "../../_sharedComponents/ProductCard/ProductCard";
 
 export default function ProductsList() {
   return (

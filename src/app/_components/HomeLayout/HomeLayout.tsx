@@ -6,14 +6,23 @@ export default function HomeLayout() {
   return (
     <div className="bg-mainGray p-16 xl:px-84 xl:py-48 grid grid-cols-12 xl:gap-25">
       <div className="xl:col-span-4 col-span-12">
-        <div className="mb-md xl:p-md p-16 bg-white xl:rounded-21 rounded-24">
+        <div
+          data-testid="profile-info"
+          className="mb-md xl:p-md p-16 bg-white xl:rounded-21 rounded-24"
+        >
           <ProfileInfo />
         </div>
-        <div className="mb-md xl:p-md p-16 bg-white xl:rounded-21 rounded-24">
+        <div
+          data-testid="follow-us"
+          className="mb-md xl:p-md p-16 bg-white xl:rounded-21 rounded-24"
+        >
           <FollowUs />
         </div>
       </div>
-      <div className="xl:col-span-8 col-span-12 xl:p-md p-16 bg-white xl:rounded-21 rounded-24">
+      <div
+        data-testid="products-list"
+        className="xl:col-span-8 col-span-12 xl:p-md p-16 bg-white xl:rounded-21 rounded-24"
+      >
         <ProductsList />
       </div>
     </div>

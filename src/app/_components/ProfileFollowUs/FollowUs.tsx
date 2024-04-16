@@ -1,5 +1,5 @@
 "use client";
-import Accordion from "@/app/_sharedComponents/Accordion/Accordion";
+import Accordion from "../../_sharedComponents/Accordion/Accordion";
 import { useState } from "react";
 import "./FollowUs.css";
 
