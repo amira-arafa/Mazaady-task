@@ -1,4 +1,4 @@
-# Mazaady-task
+# Mazaady task
 A task for Mazaady.
 
 - You can check the task here -> https://mazaady-taupe.vercel.app/
