@@ -33,7 +33,7 @@ A task for Mazaady.
 
 ## Files structure 
 
- ![tree](https://github.com/amira-arafa/Mazaady-task/assets/27787055/1751785d-f3cd-4e00-ab4b-f145023db7f9)
+  ![tree](https://github.com/amira-arafa/Mazaady-task/assets/27787055/1751785d-f3cd-4e00-ab4b-f145023db7f9)
 
 ## Libraries & technologies used
 
@@ -78,7 +78,7 @@ A task for Mazaady.
 
 - Added unit tests for profile home page and cars form
 
-![Tests](https://github.com/amira-arafa/Mazaady-task/assets/27787055/91c71149-c18d-4fb7-91f6-1a416d6a9edc)
+ ![Tests](https://github.com/amira-arafa/Mazaady-task/assets/27787055/91c71149-c18d-4fb7-91f6-1a416d6a9edc)
 
 - Command to run tests: `npx jest`
 
