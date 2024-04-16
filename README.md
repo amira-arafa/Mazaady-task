@@ -13,7 +13,8 @@ A task for Mazaady.
 - Profile design page
 - Responsive design
 - Cars categories form
-- Components
+- Shared Components
+- Apis
 - Hooks
 - Testing
 - Deployment
@@ -32,33 +33,7 @@ A task for Mazaady.
 
 ## Files structure 
 
-└── app
-    ├── Api
-    │   └── Clients
-    │       ├── AxiosClient.ts
-    │       └── CarsClient.ts
-    ├── cars
-    │   └── page.tsx
-    ├── _components
-    │   ├── Header
-    │   ├── HomeLayout
-    │   ├── ProductsList
-    │   ├── ProfileFollowUs
-    │   └── ProfileInfo
-    ├── Hooks
-    │   ├── useGetCategories.tsx
-    │   ├── useGetOptions.tsx
-    │   └── useGetProperties.tsx
-    ├── layout.tsx
-    ├── page.tsx
-    ├── _sharedComponents
-    │   ├── Accordion
-    │   ├── Button
-    │   ├── DropDown
-    │   ├── ProductCard
-    │   ├── Tabs
-    │   └── UserInfo
-    └── types
+ ![tree](https://github.com/amira-arafa/Mazaady-task/assets/27787055/1751785d-f3cd-4e00-ab4b-f145023db7f9)
 
 ## Libraries & technologies used
 
@@ -79,7 +54,37 @@ A task for Mazaady.
 
   ![Profile_page_mobile](https://github.com/amira-arafa/Mazaady-task/assets/27787055/1d747344-a633-411a-9656-767a3b2acc0c)
 
+## Cars categories form
 
+  ![cars_form](https://github.com/amira-arafa/Mazaady-task/assets/27787055/2e392d56-5cab-4769-9444-364682d79262)
 
+## Shared Components 
 
+- Accordion
+- Button
+- Button
+- ProductCard
+- Tabs
+
+## Apis
+
+  - Handled api requests using axios
+
+## Hooks
+
+- Used custom hooks to handle requests (where loading, errors and response are handled)
+
+## Testing
+
+- Added unit tests for profile home page and cars form
+
+![Tests](https://github.com/amira-arafa/Mazaady-task/assets/27787055/91c71149-c18d-4fb7-91f6-1a416d6a9edc)
+
+- Command to run tests: `npx jest`
+
+## Deployment 
+
+- Deployed to vercel
+- You can check the task here -> https://mazaady-taupe.vercel.app/
+- Cars form route -> https://mazaady-taupe.vercel.app/cars
  
